@@ -1,7 +1,5 @@
 function userDetails(name, age) {
-    let statement = "The name of the user is" + userDetails[0] + "and their age is" + userDetails[1];
-    console.log(statement);
+    let statement = "The name of the user is" + 'name' + "and their age is" + 'age';
     return statement;
-    
-    console.log(userDetails("Bolu", 25));
 };
+userDetails("Bolu", 25);
