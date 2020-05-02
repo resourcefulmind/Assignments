@@ -7,3 +7,4 @@ function addNum(x, y, z) {
 }
 
 addNum(1, 2, 3);
+console.log(addNum(1, 2, 3));

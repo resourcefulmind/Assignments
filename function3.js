@@ -5,13 +5,13 @@
 // If the string length is lesser than 5, return the string 'This word is short'
 
 function myString(string) {
-   const myStringlength = myString.length;
-    if (mystringlength >= 5) {
-        let result = 'This word is long';
-        return result;
-    } else if(myStringlength < 5) {
-        let result = 'This word is short';
-        return result;
-    }
-};
-function myString(string);
+  const myStringLength = string.length;
+  if (myStringLength >= 5) {
+    return "This word is long";
+  } else if (myStringLength < 5) {
+    return "This word is short";
+  }
+}
+
+myString("My name is Stephen");
+console.log(myString("My name is Stephen"));
