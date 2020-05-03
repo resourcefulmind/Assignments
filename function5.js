@@ -3,10 +3,9 @@
 //The function should multiply all elements of the array by 2
 //and return the modified array
 
-function multiplyAll(myArray) {
-  let newArray = [];
-  for (var i = 0; i < myArray.length; i++) {
-    newArray.push(myArray[i] * 2);
-  }
-  return newArray;
+//create a function with one argument
+
+const value = 5;
+while (value < 10) {
+  console.log("value is less than 10");
 }
